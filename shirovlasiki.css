@@ -1,0 +1,49 @@
+H1 {
+  color: #000080;
+  font-size: 200%;
+  font-family: Arial, Verdana, sans-serif;
+  text-align: center;
+}
+P {
+  padding-left: 20px;
+}
+A {
+
+}
+div {
+  margin: 10px; /* Поля  вокруг элемента */
+  float: left; /* Обтекание по правому краю */
+
+}
+form.navbar {
+  background: #4e619c;
+  width: 100%; /* Ширина блока */
+  padding: 0px;
+  margin: 0px; /* Поля  вокруг элемента */
+  float: left; /* Обтекание по правому краю */
+  font-size: 150%;
+}
+form.navbar button {
+  font-size:80%;
+  color:white;
+  border-style:none;
+  background: #4e619c;
+  position: relative;
+  padding: 12px;
+  float: left; /* Обтекание по правому краю */
+}
+form.navbar button:hover {
+  background: #ea6538;
+}
+BODY{
+margin:0px;
+}
+div.content {
+    display:block;
+    padding:10px;
+    float:left;
+    margin:0px;
+    width:100%;
+    height: -webkit-fill-available;
+    background: #f4f4ff;
+}
